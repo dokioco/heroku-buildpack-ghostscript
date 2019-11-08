@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-BUILD_DIR=/app
-CACHE_DIR=/tmp
+BUILD_DIR=$1
+CACHE_DIR=$2
 PACKAGE_NAME="ghostscript-9.21.tar.xz"
 PACKAGE_LOCATION="https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs921/$PACKAGE_NAME"
 LOCATION="$BUILD_DIR/vendor/gs"
